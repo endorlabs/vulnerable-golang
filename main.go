@@ -7,7 +7,7 @@ import (
 	_ "github.com/gogo/protobuf/proto"
 	_ "github.com/hashicorp/golang-lru"
 	_ "github.com/owncast/owncast/logging"
-        _ "github.com/windmill-labs/windmill"
+        _ "github.com/grafana/grafana-plugin-sdk-go"
 )
 
 func main() {
