@@ -7,7 +7,7 @@ toolchain go1.23.1
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/grafana/grafana-plugin-sdk-go v0.250.0
+	github.com/grafana/grafana-plugin-sdk-go v0.249.0
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/owncast/owncast v0.0.13-0.20221013022700-2f0106149f1f
 )
