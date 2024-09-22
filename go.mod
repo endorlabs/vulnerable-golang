@@ -7,7 +7,7 @@ toolchain go1.23.1
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/grafana/grafana-plugin-sdk-go v0.249.0
+	github.com/grafana/grafana-plugin-sdk-go v0.240.0
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/owncast/owncast v0.0.13-0.20221013022700-2f0106149f1f
 )
@@ -24,7 +24,6 @@ require (
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5 // indirect
 	github.com/schollz/sqlite3dump v1.3.1 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/yuin/goldmark v1.5.2 // indirect
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
