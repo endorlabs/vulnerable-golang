@@ -1,27 +1,25 @@
 module github.com/endorlabs/vulnerable-golang
 
-go 1.18
+go 1.24.0
+
+toolchain go1.24.1
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/gogo/protobuf v1.3.1
-	github.com/hashicorp/golang-lru v0.5.4
-	github.com/owncast/owncast v0.0.13-0.20221013022700-2f0106149f1f
+	github.com/google/uuid v1.1.1
+	github.com/gorilla/mux v1.7.4
+	github.com/gorilla/sessions v1.2.0
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/unrolled/secure v1.0.8
+	google.golang.org/grpc v1.29.1
 )
 
 require (
-	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible // indirect
-	github.com/lestrrat-go/strftime v1.0.4 // indirect
-	github.com/mattn/go-sqlite3 v1.14.15 // indirect
-	github.com/mssola/user_agent v0.5.3 // indirect
-	github.com/oschwald/geoip2-golang v1.8.0 // indirect
-	github.com/oschwald/maxminddb-golang v1.10.0 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
-	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5 // indirect
-	github.com/schollz/sqlite3dump v1.3.1 // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
-	github.com/yuin/goldmark v1.5.2 // indirect
-	golang.org/x/mod v0.5.1 // indirect
-	golang.org/x/sys v0.0.0-20220804214406-8e32c043e418 // indirect
-	mvdan.cc/xurls v1.1.0 // indirect
+	github.com/golang/protobuf v1.5.0 // indirect
+	github.com/gorilla/securecookie v1.1.2 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251029180050-ab9386a59fda // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 )
